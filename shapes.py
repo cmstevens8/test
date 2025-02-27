@@ -1,3 +1,4 @@
+# Force updating shapes.py
 import math  # Importing math for circle calculations
 
 # Function to calculate the area of a rectangle
