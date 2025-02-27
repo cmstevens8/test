@@ -63,5 +63,3 @@ print(f"The area of the triangle is: {triangle_area(base, height)}")
 # Prompt the user for the side length of the square and call the geometry function
 side_length = float(input("Enter the side length of the square: "))
 geometry(side_length, radius)
-
-# Test update
