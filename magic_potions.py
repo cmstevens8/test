@@ -4,11 +4,13 @@ print("Available potions:")
 for potion in potions:
     print(potion)
 
-chosen_potion = input("Chose a potion: ") 
+chosen_potion = input("Choose a potion: ") 
 
 if chosen_potion in potions:
     ingredients = potions[chosen_potion]
     print("Ingredients for", chosen_potion)
+    for ingredient in ingredients:
+        print(ingredient)
 
     i = 0
     while i < len(ingredients):
